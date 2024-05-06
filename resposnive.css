@@ -492,4 +492,8 @@
   .benefits-section .benefits-table .benefits-table-card:nth-child(2) {
     padding: 1.5rem 1.5rem;
   }
+
+  .experiences-section .container .experience .experience-img img {
+    width: 100%;
+  }
 }
