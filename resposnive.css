@@ -499,6 +499,6 @@
 
   .main-footer .main-right {
     grid-template-columns: 1fr;
-    grid-template-columns: 1fr;
+    grid-template-rows: 2fr;
   }
 }
