@@ -136,13 +136,6 @@ body {
   font-family: Lato;
   background-color: #faf6f2;
 }
-
-/* .container {
-  padding-inline: 2.5rem;
-  max-width: 85rem;
-  margin-inline: auto;
-} */
-
 /* Utility clases */
 
 .primary-btn {
@@ -208,6 +201,10 @@ nav .container .nav-right {
   gap: 1rem;
 }
 
+nav .container .nav-right .mobile-nav img {
+  display: none;
+}
+
 /* Hero-section  */
 
 .hero-section {
@@ -215,10 +212,6 @@ nav .container .nav-right {
   gap: 1.98rem;
   align-items: center;
 }
-
-/* .hero-content {
-  width: 42rem;
-} */
 
 .hero-content h1 {
   color: #fff;
@@ -241,8 +234,7 @@ nav .container .nav-right {
 
 /* Clints section  */
 
-
-.clients-section  {
+.clients-section {
   padding: 1.5rem 2rem;
   border-radius: 1rem 1rem 0rem 0rem;
   background-color: #17413a;
@@ -269,7 +261,7 @@ nav .container .nav-right {
 
 .clients-section .brands {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(8, 1fr);
   grid-template-rows: auto;
   grid-column-gap: 1.5rem;
   grid-row-gap: 1rem;
@@ -434,6 +426,11 @@ nav .container .nav-right {
 
 .experiences-section .container .experience:nth-child(3) {
   gap: 16.6rem;
+}
+
+.experiences-section .container .experience:nth-child(3) .experience-img img {
+  align-self: flex-end;
+  display: flex;
 }
 
 .experiences-section .container .experience .experience-content h6 {
