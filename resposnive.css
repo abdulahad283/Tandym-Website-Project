@@ -496,4 +496,9 @@
   .experiences-section .container .experience .experience-img img {
     width: 100%;
   }
+
+  .main-footer .main-right {
+    grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
 }
